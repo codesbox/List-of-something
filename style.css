@@ -1,0 +1,43 @@
+body {
+    background: #2F4F4F;
+    font-family: 'Poppins',sans-serif;
+}
+.todolist {
+    width: 60%;
+    top: 50%;
+    left: 50%;
+    background: white;
+    border-radius: 15px;
+    min-width: 450px;
+    position: absolute;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+#text_input {
+    width: 60%;
+    height: 35px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #2F4F4F;
+    margin: 18px;
+}
+#add_text{
+    position: relative;
+
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #2F4F4F;
+    color: #ffffff;
+    width: 20%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 18px;
+}
+#out {
+
+    margin: 25px;
+}
